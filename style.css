@@ -44,3 +44,9 @@ a {
 .lists-item a:active {
     color: rgb(228, 163, 44);   
 }
+
+#page-title{
+  text-align: center;
+  font-size: 48px;
+  color: rgb(228, 163, 44);
+}
