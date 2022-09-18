@@ -95,3 +95,18 @@ a {
 .btn:active {
   background-color: rgb(221, 134, 34);
 }
+
+@media(max-width: 48rem) {
+  .navigation{
+    display: none;
+  }
+
+  #page-title{
+    font-size: 1.5rem;
+  }
+
+  .food-lists{
+    grid-template-columns: 1fr;
+  }
+
+}
